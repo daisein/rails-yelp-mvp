@@ -16,7 +16,7 @@ restaurants_attributes = [
     description:  'Buzzy destination for Indian street food in Bombay-style vintage decor.',
     stars:        5,
     phone:        18816789500,
-    category:     'Sichuan'
+    category:     'chinese',
   },
   {
     name:         'Pizza East',
@@ -24,7 +24,7 @@ restaurants_attributes = [
     description:  'Pizzeria with industrial looks, serving rustic pizza and antipasti.',
     stars:        4,
     phone:        12334125511,
-    category:     'Italian'
+    category:     'japanese',
   }
 ]
 Restaurant.create!(restaurants_attributes)

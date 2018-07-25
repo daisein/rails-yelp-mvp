@@ -36,6 +36,8 @@
   <strong>Review:</strong>
   <% @restaurant.reviews.each do |review| %>
   <li><%= review.content %></li>
+  <li><%= review.rating %></li>
+
   <% end %>
 </p>
 
